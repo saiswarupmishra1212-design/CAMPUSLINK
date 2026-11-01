@@ -1,0 +1,23 @@
+{
+  "name": "campuslink",
+  "version": "1.0.0",
+  "description": "CAMPUSLINK: AI-Powered Campus-to-Corporate Placement Management & Analytics Platform",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "test:ai": "cd server && npm run test:ai",
+    "build": "cd client && npm run build",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "start": "node -e \"const { spawn } = require('child_process'); spawn('npm.cmd', ['run', 'server'], { stdio: 'inherit', shell: true }); spawn('npm.cmd', ['run', 'client'], { stdio: 'inherit', shell: true });\""
+  },
+  "keywords": [
+    "campus-placement",
+    "ai-matching",
+    "recruitment",
+    "analytics",
+    "nlp"
+  ],
+  "author": "Google DeepMind Advanced Agentic Coding",
+  "license": "MIT"
+}

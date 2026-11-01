@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+client/dist/
+client/tsconfig.tsbuildinfo
+
+# SQLite database files
+server/campuslink.db
+server/campuslink.db-shm
+server/campuslink.db-wal
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Env files with real secrets (demo .env files are safe to keep)
+.env.local
+.env.*.local
